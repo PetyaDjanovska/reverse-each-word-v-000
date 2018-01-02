@@ -4,5 +4,6 @@ def reverse_each_word(string)
   array.each do |substring|
     reversed << substring.reverse! + " "
   end
+  reversed.pop
   reversed
 end
