@@ -4,7 +4,7 @@ def reverse_each_word(string)
   array.each do |substring|
     reversed << substring.reverse! + " "
     if array.last
-      reversed << array.last.reverse!
+      reversed << substring.reverse!
     end
     array.last reversed << substring.reverse!
   end
