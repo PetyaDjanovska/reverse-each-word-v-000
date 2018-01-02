@@ -6,7 +6,6 @@ def reverse_each_word(string)
     if array.last
       reversed << substring.reverse!
     end
-    array.last reversed << substring.reverse!
   end
   reversed
 end
